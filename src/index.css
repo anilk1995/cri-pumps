@@ -141,6 +141,10 @@ span {
   color: #FFF;
   text-decoration: none;
   font-size: 15px;
+  border: none;
+  background-color:rgb(236, 50, 55);
+  cursor: pointer;
+
 }
 
 

@@ -75,11 +75,11 @@ function App() {
           </div>
         <div className="d-flex align-items-center">
         <FaFacebookF className="svg" />
-        <a href="www.facebook.com/crigroups" className="link">www.facebook.com/crigroups</a>
+        <button onClick={()=>(window.location.href="https://www.facebook.com/crigroups")}  className="link">www.facebook.com/crigroups</button>
         </div>
         <div className="d-flex align-items-center">
         <ImSphere className="svg" />
-        <a href="www.crigroups.com" className="link" target="blank">www.crigroups.com</a>
+        <button onClick={()=>(window.location.href="https://www.crigroups.com")}  className="link" >www.crigroups.com</button>
 
         </div>
       </div>
