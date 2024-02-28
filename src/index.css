@@ -1,13 +1,141 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 500;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  width: 350px;
+  height: 100px;
+}
+
+.trophy-image {
+  height: 580px;
+  margin-top: 30px;
+}
+
+.award-image {
+  height: 400px;
+  width: 670px;
+  margin-left: 45px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.mt-20 {
+  margin-top: 40px;
+}
+
+.border-top {
+  border-top: 2px solid rgb(236, 50, 55);
+}
+
+.bg-red {
+  background-color: rgb(236, 50, 55)
+}
+
+.container {
+  max-width: 1092px;
+  background: linear-gradient(0deg, rgb(240, 233, 161),  #FFF);
+  padding: 10px;
+}
+
+.product-image {
+  width: 70%;
+  margin: auto;
+}
+span {
+  color: rgb(236, 50, 55);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.svg{
+    color:rgb(236, 50, 55);
+    background-color: #FFF;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFF;
 }
