@@ -213,7 +213,7 @@ span {
     .container {
         width: 100%;
         background: linear-gradient(0deg, rgb(240, 233, 161),  #FFF);
-        padding: 15px;
+        padding: 10px;
       }
 
     .logo {
@@ -299,8 +299,8 @@ span {
       }
       
       .award-image {
-        height: 10em;
-        width: 20em;
+        height: 17em;
+        width: 90%;
         margin-left: 3em;
       }
 
