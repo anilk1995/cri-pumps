@@ -7,7 +7,7 @@ function App() {
       <div>
         <img src="logo.png" alt="logo-thumbnail" className="logo" />
       </div>
-      <div className="d-flex">
+      <div className="d-flex award-container">
         <div>
           <img src="1.png" alt="trophy" className="trophy-image" />
         </div>
@@ -69,15 +69,15 @@ function App() {
         </p>
       </div>
       <div className="bg-red d-flex footer align-items-center justify-content-around fs-13">
-        <div className="d-flex">
+        <div className="d-flex align-items-center">
           <IoMdCall className="svg"/>
-          <p className="link">Toll free <label>18002001234</label></p>
+          <p className="link fs-11">Toll free <label>18002001234</label></p>
           </div>
-        <div>
+        <div className="d-flex align-items-center">
         <FaFacebookF className="svg" />
         <a href="www.facebook.com/crigroups" className="link">www.facebook.com/crigroups</a>
         </div>
-        <div>
+        <div className="d-flex align-items-center">
         <ImSphere className="svg" />
         <a href="www.crigroups.com" className="link" target="blank">www.crigroups.com</a>
 
